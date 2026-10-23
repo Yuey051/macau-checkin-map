@@ -14,20 +14,21 @@ const locations = [
 {
   id: 1,
   name: "澳门舞伎抹茶（大三巴分店）",
-  category: "应援咖啡厅",
+  category: "应援餐车",
   address: "澳门特别行政区花王堂区大三巴街凤凰大厦地下23E",
   date: "2026.10.30 - 11.02",
   openingHours: "10:00 - 20:00",
-  description: "BAMBY斑比澳门个人应援｜READY? SET? GO! 🏁💨 💗 BAMBY欢迎抵达澳门！大三巴分店限量300份。应援物料包括手幅、纸袋、人生四格、明信片等，送完即止。领取要求：关注@DeerBamby0715。",
+  description: "BAMBY斑比澳门个人应援｜大三巴分店限量300份。应援物料包括手幅、纸袋、人生四格、明信片等，送完即止。领取要求：关注@DeerBamby0715。",
   image: "/images/2.jpg",
   xiaohongshuUrl: "https://xhslink.cn/o/4zcDbABf9jY",
   position: [22.193646, 113.54592],
   markerColor: "pink",
+  amapPoiId: "B0LAJAII5L",
 },
 {
   id: 2,
-  name: "银河二期及百老汇大街特别配送餐车",
-  category: "应援活动",
+  name: "特别配送餐车",
+  category: "应援餐车",
   address: "中国澳门特别行政区路凼填海区银河二期及百老汇大街",
   date: "2026.10.31 - 11.01",
   openingHours: "11:00 - 22:00",
@@ -36,13 +37,14 @@ const locations = [
   xiaohongshuUrl: "https://xhslink.cn/o/4zcDbABf9jY",
   position: [22.143656, 113.556656],
   markerColor: "pink",
+  amapPoiId: "B0LKA68EOI",
 },
 
 {
   id: 3,
   name: "旺记咖啡｜澳门蔡斑比三店应援",
   category: "应援咖啡厅",
-  address: "澳门氹仔官也街1号",
+  address: "澳门特别行政区嘉模堂区嘉模堂区旧城区告利雅施利华街60号",
   date: "2026.10.30 - 11.02",
   openingHours: "",
   description: "澳门蔡斑比三店应援。领取条件请查看应援海报；请提前截图并向店员出示，每人限领1份。",
@@ -50,12 +52,13 @@ const locations = [
   xiaohongshuUrl: "https://xhslink.cn/o/1bu0PmK5KzY",
   position: [22.15019, 113.562234],
   markerColor: "pink",
+  amapPoiId: "B0FFF6U03E",
 },
 {
   id: 4,
   name: "Photoism｜澳门蔡斑比三店应援",
-  category: "应援活动",
-  address: "澳门路凼城路凼填海区澳门凼仔告利雅施利华街39号",
+  category: "打卡",
+  address: "澳门路凼城路凼填海区澳门凼仔告利雅施利华街35号",
   date: "2026.10.30 - 11.02",
   openingHours: "",
   description: "澳门蔡斑比三店应援。领取条件请查看应援海报；请提前截图并向店员出示，每人限领1份。",
@@ -63,6 +66,7 @@ const locations = [
   xiaohongshuUrl: "https://xhslink.cn/o/1bu0PmK5KzY",
   position: [22.149925, 113.562205],
   markerColor: "pink",
+  amapPoiId: "B0MD57XB88",
 },
 {
   id: 5,
@@ -74,7 +78,7 @@ const locations = [
   description: "澳门蔡斑比三店应援。领取条件请查看应援海报；请提前截图并向店员出示，每人限领1份。",
   image: "/images/3.jpg",
   xiaohongshuUrl: "https://xhslink.cn/o/1bu0PmK5KzY",
-  position: [22.194489, 113.551575],
+  position: [22.149789,113.561797],
   markerColor: "pink",
 },
 
@@ -90,6 +94,7 @@ const locations = [
   xiaohongshuUrl: "https://xhslink.cn/o/5Ho02Yg4hMu",
   position: [22.151318, 113.564156],
   markerColor: "green",
+  amapPoiId: "B0K0CMD2X8",
 },
 
 {
@@ -104,6 +109,7 @@ const locations = [
   xiaohongshuUrl: "https://xhslink.cn/o/9Blj2Qnk7se",
   position: [22.150889, 113.561513],
   markerColor: "green",
+  amapPoiId: "B0KAO5X9A3",
 },
 
 {
@@ -113,11 +119,12 @@ const locations = [
   address: "澳门特别行政区望德圣母湾大马路威尼斯人购物中心1036A铺海底捞",
   date: "2026.10.31 - 11.01",
   openingHours: "",
-  description: "柳河玟澳门生日应援 Part.2｜海底捞生日应援。欢迎到场用餐及打卡。",
+  description: "海底捞31号晚有团餐切蛋糕活动（已报满）具体可入群看。可自行到场用餐及打卡。",
   image: "/images/6.jpg",
   xiaohongshuUrl: "https://xhslink.cn/o/3Ad3LDnSvxD",
   position: [22.142759, 113.57092],
   markerColor: "green",
+  amapPoiId: "B0IB5HQ5ES",
 },
 
 {
@@ -132,6 +139,7 @@ const locations = [
   xiaohongshuUrl: "https://xhslink.cn/o/4tBLetZ3YOv",
   position: [22.144386, 113.565506],
   markerColor: "green",
+  amapPoiId: "B0IB5HQ5ES",
 },
 
 {
@@ -146,6 +154,7 @@ const locations = [
   xiaohongshuUrl: "https://xhslink.cn/o/5iXWEJ7AhvX",
   position: [22.137592, 113.579824],
   markerColor: "green",
+  amapPoiId: "B0I647TJZS",
 },
 
 {
@@ -437,11 +446,15 @@ function App() {
               
 <a
   className="amap-navigation-button"
-  href={`https://uri.amap.com/marker?position=${selectedLocation.position[1]},${selectedLocation.position[0]}&name=${encodeURIComponent(selectedLocation.name)}&src=PLLI_GUIDE&coordinate=gaode&callnative=1`}
+  href={
+  selectedLocation.amapPoiId
+    ? `https://ditu.amap.com/place/${selectedLocation.amapPoiId}`
+    : `https://uri.amap.com/marker?position=${selectedLocation.position[1]},${selectedLocation.position[0]}&name=${encodeURIComponent(selectedLocation.name)}&coordinate=gaode&callnative=1`
+}
   target="_blank"
   rel="noopener noreferrer"
 >
-  <span>高德地图导航</span>
+  <span>查看高德地点</span>
   <span>↗</span>
 </a>
 
