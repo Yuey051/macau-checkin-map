@@ -1,0 +1,449 @@
+
+:root {
+  font-family: "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  color: #242424;
+  background: #f7f6f3;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  min-width: 320px;
+}
+
+button,
+a {
+  font: inherit;
+}
+
+.app {
+  width: 100%;
+  max-width: 680px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  background: #f7f6f3;
+}
+
+/* 顶部横幅 */
+.event-banner {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: #dcd9f5;
+}
+
+.event-banner > img {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.banner-placeholder {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(
+    135deg,
+    #373a72a8,
+    #a47bbd55,
+    #e7a5c755
+  );
+}
+
+.banner-placeholder span {
+  font-size: clamp(9px, 2vw, 12px);
+  letter-spacing: 0.2em;
+  font-weight: 600;
+  color: #fff;
+}
+
+.banner-placeholder h1 {
+  margin: 10px 0;
+  font-size: clamp(24px, 6vw, 42px);
+  line-height: 1.15;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  overflow-wrap: anywhere;
+  text-shadow: 0 2px 12px #25204b66;
+}
+
+.banner-placeholder p {
+  margin: 0;
+  font-size: clamp(10px, 2.5vw, 14px);
+  line-height: 1.6;
+}
+
+/* 地图标题栏 */
+.map-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 15px 18px 12px;
+}
+
+.map-heading-title {
+  flex-shrink: 0;
+}
+
+.map-heading h2 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.map-heading p {
+  margin: 5px 0 0;
+  color: #888;
+  font-size: 11px;
+}
+
+/* 地图颜色图例 */
+.map-legend {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  margin-left: auto;
+}
+
+.legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #55516a;
+  font-size: 12px;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+
+.map-legend .legend-dot {
+  display: inline-block !important;
+  position: relative;
+  width: 12px !important;
+  height: 12px !important;
+  min-width: 12px;
+  min-height: 12px;
+  flex: 0 0 12px;
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.map-legend .legend-white {
+  background: #fff !important;
+  border: 1px solid #c9c9cf !important;
+}
+
+.map-legend .legend-pink {
+  background: #f3a6c8 !important;
+  border: 1px solid #e9a0c1 !important;
+}
+
+.map-legend .legend-green {
+  background: #9bc9a8 !important;
+  border: 1px solid #8eb99a !important;
+}
+
+.map-legend .legend-black {
+  background: #252525 !important;
+  border: 1px solid #252525 !important;
+}
+
+.map-legend .legend-rainbow {
+  background: linear-gradient(
+    135deg,
+    #f3a6c8 0%,
+    #9bc9a8 35%,
+    #fff 55%,
+    #252525 75%,
+    #f05b65 100%
+  ) !important;
+  border: 1px solid #d8d8d8 !important;
+}
+
+.location-count {
+  color: #777;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}
+
+/* 地图区域：高德地图 */
+.map-section {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  min-height: 400px;
+  flex-shrink: 0;
+  overflow: hidden;
+  background: #e7e5df;
+}
+
+/* 高德地图外层容器 */
+.amap-map-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  overflow: hidden;
+  background: #e7e5df;
+}
+
+/* 高德地图必须有明确的宽度和高度 */
+.amap-map {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  overflow: hidden;
+  background: #e7e5df;
+}
+
+/* 高德地图加载失败提示 */
+.amap-map-error {
+  position: absolute;
+  inset: 12px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border-radius: 12px;
+  background: #fff;
+  color: #333;
+  text-align: center;
+  overflow-wrap: anywhere;
+}
+
+.amap-map-error strong {
+  font-size: 16px;
+}
+
+.amap-map-error p {
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+/* 地点详情卡片 */
+.location-card {
+  position: absolute;
+  z-index: 1000;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  max-height: 65%;
+  overflow-y: auto;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 4px 24px #0003;
+  animation: card-enter 0.2s ease-out;
+}
+
+@keyframes card-enter {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 2;
+  width: 32px;
+  height: 32px;
+  border: none;
+  border-radius: 50%;
+  background: #ffffffed;
+  color: #333;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.location-image {
+  display: block;
+  width: 100%;
+  max-height: 190px;
+  object-fit: cover;
+}
+
+.location-content {
+  padding: 18px;
+}
+
+.location-category {
+  display: inline-block;
+  padding: 4px 9px;
+  border-radius: 5px;
+  background: #f0eee9;
+  color: #666;
+  font-size: 11px;
+}
+
+.location-content h3 {
+  margin: 10px 0 16px;
+  font-size: 20px;
+}
+
+.location-info {
+  margin: 9px 0;
+  font-size: 13px;
+  line-height: 1.7;
+  overflow-wrap: anywhere;
+}
+
+.location-info strong {
+  display: inline-block;
+  min-width: 65px;
+  color: #888;
+  font-weight: 500;
+}
+
+.location-description {
+  margin: 12px 0;
+  color: #666;
+  font-size: 13px;
+  line-height: 1.8;
+  white-space: pre-wrap;
+}
+
+/* 小红书原帖按钮 */
+.xiaohongshu-button {
+  display: flex;
+  width: 100%;
+  min-height: 46px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  border-radius: 9px;
+  background: #d94b4b;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.xiaohongshu-button:hover {
+  background: #c94040;
+}
+
+/* 页脚 */
+.page-footer {
+  padding: 12px 10px;
+  text-align: center;
+  color: #aaa;
+  font-size: 9px;
+  letter-spacing: 0.16em;
+}
+
+/* 手机端适配 */
+@media (max-width: 600px) {
+  .map-heading {
+    align-items: flex-start;
+    padding: 13px 16px 11px;
+    gap: 10px;
+  }
+
+  .map-heading-title {
+    flex: 1;
+    min-width: 120px;
+  }
+
+  .map-legend {
+    width: 100%;
+    justify-content: flex-start;
+    margin-left: 0;
+    gap: 8px 12px;
+  }
+
+  .legend-item {
+    font-size: 11px;
+  }
+
+  .location-count {
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .map-section {
+    height: calc(100dvh - 190px);
+    min-height: 400px;
+  }
+
+  .location-card {
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    max-height: 70%;
+  }
+
+  .location-content {
+    padding: 15px;
+  }
+}
+
+
+/* 高德地图导航按钮 */
+.amap-navigation-button {
+  display: flex;
+  width: 100%;
+  min-height: 46px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 16px;
+  border-radius: 9px;
+  background: #16866b;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.amap-navigation-button:hover {
+  background: #106e57;
+}
