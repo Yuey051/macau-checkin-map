@@ -337,9 +337,9 @@ const locations = [
   description: "每张 MOP 68（约人民币58元），加印每张 MOP 35（约人民币30元）。",
   image: "/images/21.jpg",
   xiaohongshuUrl: "https://xhslink.cn/o/14uHX2daxMd",
-  amapPoiId: "B0KAL4INB5",
-  position: [0, 0],
+  position: [22.143238, 113.556689],
   markerColor: "green",
+  amapPoiId: "B0KAL4INB5",
 },
 {
   id: 24,
@@ -351,8 +351,8 @@ const locations = [
   description: "每张 MOP 68（约人民币58元），加印每张 MOP 35（约人民币30元）。",
   image: "/images/21.jpg",
   xiaohongshuUrl: "https://xhslink.cn/o/14uHX2daxMd",
+  position: [22.151754, 113.561586],
   amapPoiId: "B0JK95AOP7",
-  position: [0, 0],
   markerColor: "green",
 },
 {
@@ -365,8 +365,8 @@ const locations = [
   description: "每张 MOP 68（约人民币58元），加印每张 MOP 35（约人民币30元）。注意：11月2日14:00提前下架。",
   image: "/images/21.jpg",
   xiaohongshuUrl: "https://xhslink.cn/o/14uHX2daxMd",
+  position: [22.144809, 113.561101],
   amapPoiId: "B0M1KUR9RP",
-  position: [0, 0],
   markerColor: "green",
 },
 {
