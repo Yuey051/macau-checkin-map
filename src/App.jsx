@@ -6,7 +6,7 @@ const AMAP_SECURITY_CODE = import.meta.env.VITE_AMAP_SECURITY_CODE;
 
 
 // 地点数据：新增地点时，在这里添加一项
-// markerColor 可选：white / pink / green / black
+// markerColor 可选：white / pink / green / black / red
 // 双色示例：pink-green / pink-black / white-green
 
 const locations = [
@@ -396,6 +396,20 @@ const locations = [
   markerColor: "white",
   amapPoiId: "B0M1KUR9RP",
 },
+{
+  id: 28,
+  name: "老虎堂奶茶店｜EUNHO银虎应援",
+  category: "应援饮品厅",
+  address: "澳门氹仔官也街",
+  date: "2026.10.31",
+  openingHours: "11:00 - 22:00",
+  description: " 更多应援详情请查看小红书原帖。",
+  image: "/images/24.jpg",
+  xiaohongshuUrl: "https://xhslink.cn/o/Aj0YuwxDLHZ",
+  position: [22.14982, 113.561959],
+  markerColor: "red",
+  amapPoiId: "B0FFKSK3JJ",
+},
 ];
 
 function App() {
@@ -436,6 +450,11 @@ function App() {
           <span className="legend-item">
             <i className="legend-dot legend-pink" />
             斑比
+          </span>
+
+          <span className="legend-item">
+            <i className="legend-dot legend-red" />
+            银虎
           </span>
 
           <span className="legend-item">
