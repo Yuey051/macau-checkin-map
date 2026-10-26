@@ -410,6 +410,51 @@ const locations = [
   markerColor: "red",
   amapPoiId: "B0FFKSK3JJ",
 },
+{
+  id: 29,
+  name: "澳门舞伎抹茶总店｜韩诺亚应援",
+  category: "应援咖啡厅",
+  address: "澳门乾草围（卖草地里）13号长信大厦地下C座",
+  date: "2026.10.29 - 11.2",
+  hours: "09:00 - 20:00",
+  description:
+    "韩诺亚_PrincessPalais ✖️ 澳門舞伎抹茶 MATCHA CAFE MAIKO 包店应援。店面旁设有打卡墙。应援包店、人生四格、餐车为不同地址。",
+  image: "/images/25.jpg",
+  xhsUrl: "https://xhslink.cn/o/7Kv0MiRmg1k",
+  position: [22.192216, 113.545707],
+  markerColor: "purple",
+  amapPoiId: "B0JDJG9JR5",
+},
+{
+  id: 30,
+  name: "百老汇餐车｜韩诺亚应援",
+  category: "应援餐车",
+  address: "路氹填海区银河二期及百老汇大街",
+  date: "2026.10.31 - 11.1",
+  hours: "11:00 - 20:00",
+  description:
+    "韩诺亚_PrincessPalais 澳门世巡应援餐车。仅演唱会两天开放，距离场馆较近，方便 PLLI 领取应援物料。更多应援详情请查看小红书原帖。",
+  image: "/images/25.jpg",
+  xhsUrl: "https://xhslink.cn/o/7Kv0MiRmg1k",
+  position: [22.143656, 113.556656],
+  markerColor: "purple",
+  amapPoiId: "B0LKA68EOI",
+},
+{
+  id: 31,
+  name: "人生四格大三巴分店｜韩诺亚应援",
+  category: "人生四格",
+  address: "澳门特别行政区花王堂区大三巴街凤凰大厦地下23E",
+  date: "2026.10.29 - 11.2",
+  hours: "09:00 - 20:00",
+  description:
+    "韩诺亚_PrincessPalais 澳门世巡应援人生四格分店。与应援包店、百老汇餐车位于不同地址。更多应援详情请查看小红书原帖。",
+  image: "/images/25.jpg",
+  xhsUrl: "https://xhslink.cn/o/7Kv0MiRmg1k",
+  position: [22.193646, 113.54592],
+  markerColor: "purple",
+  amapPoiId: "B0LAJAII5L",
+},
 ];
 
 function App() {
@@ -445,6 +490,11 @@ function App() {
           <span className="legend-item">
             <i className="legend-dot legend-white" />
             团体
+          </span>
+
+          <span className="legend-item">
+            <i className="legend-dot legend-purple" />
+            诺亚
           </span>
 
           <span className="legend-item">
