@@ -371,7 +371,7 @@ const locations = [
 },
 {
   id: 26,
-  name: "SOWON•茶作｜斑比澳门应援",
+  name: "SOWON•茶作｜店家自发应援",
   category: "应援饮品厅",
   address: "澳门氹仔施督憲正街11號（官也街巴士站步行约1分钟）",
   date: "2026.10.30 - 11.02",
@@ -381,6 +381,20 @@ const locations = [
   xiaohongshuUrl: "https://xhslink.cn/o/7h5KsyA6POG",
   position: [22.150254, 113.562592],
   markerColor: "pink",
+},
+{
+  id: 27,
+  name: "沏茶怪獸官也街店｜店家自发应援",
+  category: "应援饮品厅",
+  address: "澳门氹仔兵房斜巷17号地下（官也街店）",
+  date: "2026.10.29 - 11.02",
+  openingHours: "10:00 - 23:00",
+  description: "200份物料：主题纸袋、主题透扇、主题手幅、主题特制明信片。 领取条件：1. 关注并追踪本店小红书，点赞及收藏此贴文。2. 购买以下任一应援套餐：A. 一杯饮品 + 一份抹茶红豆大福；B. 彩虹 Gelato + 一份抹茶红豆大福。 套餐饮品（四选一）：蓝波波云朵冻、白桃茉莉柠檬觉醒、招牌黑糖波波乌龙舞会、柚子花季柠檬觉醒。现场布置：室外3米巨型横幅、合照打卡墙、全澳唯一巨型小卡相册、手持打卡冰箱贴。距离威尼斯人酒店约10分钟路程。",
+  image: "/images/23.jpg",
+  xiaohongshuUrl: "https://xhslink.cn/o/AjPdx5OHRjY",
+  position: [22.149987, 113.562289],
+  markerColor: "white",
+  amapPoiId: "B0M1KUR9RP",
 },
 ];
 
