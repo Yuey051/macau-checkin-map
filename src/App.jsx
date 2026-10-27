@@ -13,7 +13,7 @@ const locations = [
  
 {
   id: 1,
-  name: "澳门舞伎抹茶（大三巴分店）",
+  name: "澳门舞伎抹茶（大三巴分店）|蔡斑比站应援",
   category: "应援餐车",
   address: "澳门特别行政区花王堂区大三巴街凤凰大厦地下23E",
   date: "2026.10.30 - 11.02",
@@ -27,7 +27,7 @@ const locations = [
 },
 {
   id: 2,
-  name: "特别配送餐车",
+  name: "特别配送餐车}|蔡斑比站应援",
   category: "应援餐车",
   address: "中国澳门特别行政区路凼填海区银河二期及百老汇大街",
   date: "2026.10.31 - 11.01",
@@ -42,7 +42,7 @@ const locations = [
 
 {
   id: 3,
-  name: "旺记咖啡｜澳门蔡斑比三店应援",
+  name: "旺记咖啡｜蔡斑比站应援",
   category: "应援咖啡厅",
   address: "澳门特别行政区嘉模堂区嘉模堂区旧城区告利雅施利华街60号",
   date: "2026.10.30 - 11.02",
@@ -56,7 +56,7 @@ const locations = [
 },
 {
   id: 4,
-  name: "Photoism｜澳门蔡斑比三店应援",
+  name: "Photoism｜蔡斑比站应援",
   category: "打卡",
   address: "澳门路凼城路凼填海区澳门凼仔告利雅施利华街35号",
   date: "2026.10.30 - 11.02",
@@ -70,7 +70,7 @@ const locations = [
 },
 {
   id: 5,
-  name: "鲜果檬檬｜澳门蔡斑比三店应援",
+  name: "鲜果檬檬｜蔡斑比站应援",
   category: "应援饮品店",
   address: "澳门氹仔告利雅施利华街39号地下",
   date: "2026.10.30 - 11.02",
@@ -159,7 +159,7 @@ const locations = [
 
 {
   id: 11,
-  name: "HAMIN澳门葡京人大屏应援",
+  name: "HAMIN澳门葡京人大屏生日应援",
   category: "打卡大屏",
   address: "澳门路凼溜冰路英皇戏院（澳门葡京人）西南约222米",
   date: "2026.11.01",
@@ -189,7 +189,7 @@ const locations = [
 
 {
   id: 13,
-  name: "茶百道（官也街店）｜PLAVE澳门世巡联合应援",
+  name: "茶百道（官也街店）｜粉丝联合应援",
   category: "应援饮品店",
   address: "澳门特别行政区嘉模堂区氹仔木铎街41号地下",
   date: "2026.10.31 - 11.01",
@@ -203,7 +203,7 @@ const locations = [
 },
 {
   id: 14,
-  name: "天青茗度｜PLAVE澳门世巡联合应援",
+  name: "天青茗度｜粉丝联合应援",
   category: "应援甜品店",
   address: "澳门特别行政区嘉模堂区奥林匹克大马路与成都街交叉口东南286米",
   date: "2026.10.31 - 11.01",
@@ -329,7 +329,7 @@ const locations = [
 },
 {
   id: 23,
-  name: "DiGREEN 百老匯店｜柳河玟人生四格",
+  name: "DiGREEN 百老匯店｜柳河玟生日人生四格",
   category: "人生四格",
   address: "澳门百老匯美食街 E-G034",
   date: "2026.10.28 - 11.02",
@@ -343,7 +343,7 @@ const locations = [
 },
 {
   id: 24,
-  name: "Day One Coffee官也街店｜柳河玟人生四格",
+  name: "Day One Coffee官也街店｜柳河玟生日人生四格",
   category: "人生四格",
   address: "澳门氹仔消防局前地5号（官也街 Nike 后面）",
   date: "2026.10.28 - 11.02",
@@ -357,7 +357,7 @@ const locations = [
 },
 {
   id: 25,
-  name: "澳門沏茶怪獸官也街店｜柳河玟人生四格",
+  name: "澳門沏茶怪獸官也街店｜柳河玟生日人生四格",
   category: "人生四格",
   address: "澳门氹仔兵房斜巷17号地下",
   date: "2026.10.28 - 11.02",
@@ -398,7 +398,7 @@ const locations = [
 },
 {
   id: 28,
-  name: "老虎堂奶茶店｜EUNHO银虎应援",
+  name: "老虎堂奶茶店｜银虎粉丝联合应援",
   category: "应援饮品厅",
   address: "澳门氹仔官也街",
   date: "2026.10.31",
@@ -412,7 +412,7 @@ const locations = [
 },
 {
   id: 29,
-  name: "澳门舞伎抹茶总店｜韩诺亚应援",
+  name: "澳门舞伎抹茶总店｜韩诺亚站应援",
   category: "应援咖啡厅",
   address: "澳门乾草围（卖草地里）13号长信大厦地下C座",
   date: "2026.10.29 - 11.2",
@@ -427,7 +427,7 @@ const locations = [
 },
 {
   id: 30,
-  name: "百老汇餐车｜韩诺亚应援",
+  name: "百老汇餐车｜韩诺亚站应援",
   category: "应援餐车",
   address: "路氹填海区银河二期及百老汇大街",
   date: "2026.10.31 - 11.1",
@@ -442,7 +442,7 @@ const locations = [
 },
 {
   id: 31,
-  name: "人生四格大三巴分店｜韩诺亚应援",
+  name: "人生四格大三巴分店｜韩诺亚站应援",
   category: "人生四格",
   address: "澳门特别行政区花王堂区大三巴街凤凰大厦地下23E",
   date: "2026.10.29 - 11.2",
@@ -457,7 +457,7 @@ const locations = [
 },
 {
   id: 32,
-  name: "老K牛杂官也街店｜南艺俊应援店",
+  name: "老K牛杂官也街店｜南艺俊粉丝联合应援",
   category: "应援小吃店",
   address: "老K牛杂（官也街店）",
   date: "2026.10.31 - 11.1",
@@ -484,6 +484,35 @@ const locations = [
   position: [22.151697, 113.561413],
   markerColor: "white",
   amapPoiId: "B0K6P1PNTT",
+},
+{
+  id: 34,
+  name: "澳门瑩茶｜店家自发应援",
+  category: "应援咖啡厅",
+  address: "澳门嘉模堂区官也街何连旺街6-8号",
+  date: "2026.10.29 - 11.1",
+  hours: "11:00 - 20:00",
+  description:
+    "门店主题布置包括4米巨型PLAVE云梦便利贴墙、镜面布景、2米留言墙及五人全员造型海报主题墙。应援周边包括限定应援纸袋、应援棒手幅、五款个人造型海报、五款吧唧、奶茶扣、圆贴、Q版透扇、特制打卡棒及限量隐藏物。限定应援套餐价格为88澳门元、108澳门元、168澳门元及238澳门元，具体赠品以套餐说明为准。",
+  image: "/images/28.jpg",
+  xhsUrl: "https://xhslink.cn/o/4xKt1YqMZjy",
+  position: [22.150877, 113.562064],
+  markerColor: "white",
+  amapPoiId: "B0LKNAQ5JH",
+},
+{
+  id: 35,
+  name: "whatelephant coffee&desserts｜店家自发应援",
+  category: "应援咖啡厅",
+  address: "澳门氹仔嘉模堂区兵房斜巷8号立民楼地下A铺",
+  date: "2026.10.30 - 11.01",
+  openingHours: "11:00 - 18:30",
+  description: "官也街应援咖啡店，设有专属周边套餐、定制曲奇及沉浸式痛店打卡体验。打卡有礼。",
+  image: "/images/13.jpg",
+  xiaohongshuUrl: "https://xhslink.cn/o/6WyqosdzT4n",
+  position: [22.150272, 113.562967],
+  markerColor: "white",
+  amapPoiId: "B0L3X71QNU",
 },
 ];
 
