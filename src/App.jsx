@@ -420,7 +420,7 @@ const locations = [
   description:
     "韩诺亚_PrincessPalais ✖️ 澳門舞伎抹茶 MATCHA CAFE MAIKO 包店应援。店面旁设有打卡墙。应援包店、人生四格、餐车为不同地址。",
   image: "/images/25.jpg",
-  xhsUrl: "https://xhslink.cn/o/7Kv0MiRmg1k",
+  xiaohongshuUrl: "https://xhslink.cn/o/7Kv0MiRmg1k",
   position: [22.192216, 113.545707],
   markerColor: "purple",
   amapPoiId: "B0JDJG9JR5",
@@ -435,7 +435,7 @@ const locations = [
   description:
     "韩诺亚_PrincessPalais 澳门世巡应援餐车。仅演唱会两天开放，距离场馆较近，方便 PLLI 领取应援物料。更多应援详情请查看小红书原帖。",
   image: "/images/25.jpg",
-  xhsUrl: "https://xhslink.cn/o/7Kv0MiRmg1k",
+  xiaohongshuUrl: "https://xhslink.cn/o/7Kv0MiRmg1k",
   position: [22.143656, 113.556656],
   markerColor: "purple",
   amapPoiId: "B0LKA68EOI",
@@ -450,7 +450,7 @@ const locations = [
   description:
     "韩诺亚_PrincessPalais 澳门世巡应援人生四格分店。与应援包店、百老汇餐车位于不同地址。更多应援详情请查看小红书原帖。",
   image: "/images/25.jpg",
-  xhsUrl: "https://xhslink.cn/o/7Kv0MiRmg1k",
+  xiaohongshuUrl: "https://xhslink.cn/o/7Kv0MiRmg1k",
   position: [22.193646, 113.54592],
   markerColor: "purple",
   amapPoiId: "B0LAJAII5L",
@@ -464,7 +464,7 @@ const locations = [
   hours: "10:30 - 23:00",
   description: "南艺俊澳门个人联合应援。消费相应套餐即可领取限定应援礼包，套餐88 MOP，每日限量100份。套餐包含牛杂、招牌香水柠檬茶、特色咖喱鱼蛋，可三种混搭。礼包含A5海报×2、纸袋、手幅、透扇、明信片×2、贴纸×3、皮质杯垫；个人特供追加小卡、亚克力立牌×3。店内设有巨型应援海报、互动留言板和人形立牌。",
   image: "/images/26.png",
-  xhsUrl: "https://xhslink.cn/o/4xVR1gcZ48Z",
+  xiaohongshuUrl: "https://xhslink.cn/o/4xVR1gcZ48Z",
   position: [22.149389, 113.561403],
   markerColor: "blue",
   amapPoiId: "B0MA390WTX",
