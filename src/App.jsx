@@ -455,6 +455,20 @@ const locations = [
   markerColor: "purple",
   amapPoiId: "B0LAJAII5L",
 },
+{
+  id: 32,
+  name: "老K牛杂官也街店｜南艺俊应援店",
+  category: "应援小吃店",
+  address: "老K牛杂（官也街店）",
+  date: "2026.10.31 - 11.1",
+  hours: "10:30 - 23:00",
+  description:
+    "两天共准备200份物料。更多应援详情待公布。",
+  image: "",
+  position: [22.149389, 113.561403],
+  markerColor: "blue",
+  amapPoiId: "B0MA390WTX",
+},
 ];
 
 function App() {
@@ -490,6 +504,11 @@ function App() {
           <span className="legend-item">
             <i className="legend-dot legend-white" />
             团体
+          </span>
+
+          <span className="legend-item">
+            <i className="legend-dot legend-blue" />
+            艺俊
           </span>
 
           <span className="legend-item">
