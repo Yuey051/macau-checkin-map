@@ -470,6 +470,21 @@ const locations = [
   amapPoiId: "B0MA390WTX",
   
 },
+{
+  id: 33,
+  name: "DAY ONE COFFEE｜店家自发应援",
+  category: "应援咖啡厅",
+  address: "DAY ONE COFFEE（官也街 Nike 后面，氹仔世纪咖啡外卖店隔壁）",
+  date: "2026.10.30 - 11.1",
+  hours: "10:30 - 19:30",
+  description:
+    "现场布置包括楼顶大型海报、门口打卡墙及成员主题窗贴，人生四格筹备中。购买应援套餐即可获得纸袋、手幅、年历卡及明信片。",
+  image: "/images/27.jpg",
+  xhsUrl: "https://xhslink.cn/o/2kguqrXmN6q",
+  position: [22.151697, 113.561413],
+  markerColor: "white",
+  amapPoiId: "B0K6P1PNTT",
+},
 ];
 
 function App() {
