@@ -464,10 +464,11 @@ const locations = [
   hours: "10:30 - 23:00",
   description: "南艺俊澳门个人联合应援。消费相应套餐即可领取限定应援礼包，套餐88 MOP，每日限量100份。套餐包含牛杂、招牌香水柠檬茶、特色咖喱鱼蛋，可三种混搭。礼包含A5海报×2、纸袋、手幅、透扇、明信片×2、贴纸×3、皮质杯垫；个人特供追加小卡、亚克力立牌×3。店内设有巨型应援海报、互动留言板和人形立牌。",
   image: "/images/26.png",
+  xhsUrl: "https://xhslink.cn/o/4xVR1gcZ48Z",
   position: [22.149389, 113.561403],
   markerColor: "blue",
   amapPoiId: "B0MA390WTX",
-  xhsUrl: "https://xhslink.cn/o/4xVR1gcZ48Z",
+  
 },
 ];
 
